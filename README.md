@@ -42,11 +42,53 @@ We can think of the information contained in an algorithm as a type of pseudo-co
 
 “Machine learning (ML) is the scientific study of algorithms and statistical models that computer systems use to perform a specific task without using explicit instructions, relying on patterns and inference instead. It is seen as a subset of artificial intelligence. Machine learning algorithms build a mathematical model based on sample data, known as ‘training data,’ in order to make predictions or decisions without being explicitly programmed to perform the task. Machine learning algorithms are used in a wide variety of applications, such as email filtering and computer vision, where it is difficult or infeasible to develop a conventional algorithm for effectively performing the task.” ([Wikipedia](https://en.wikipedia.org/wiki/Machine_learning))
 
+Machine learning relies on a branch of statistics to detect patterns or relationships within an input dataset. 
+
+Those statistically significant patterns/relationships are used to classify or categorize future events or data points, based on a statistical measure of propability.
+
+A machine learning algorithm is the procedure of set of instructions used by the model to make decisions about patterns or relationships.
+
 ## Predictive Modelling
+
+"Predictive modelling uses statistics to predict outcomes. Most often the event one wants to predict is in the future, but predictive modelling can be applied to any type of unknown event, regardless of when it occurred...In many cases the model is chosen on the basis of detection theory to try to guess the probability of an outcome given a set amount of input data...Models can use one or more classifiers in trying to determine the probability of a set of data belonging to another set...Depending on definitional boundaries, predictive modelling is synonymous with, or largely overlapping with, the field of machine learning, as it is more commonly referred to in academic or research and development contexts. When deployed commercially, predictive modelling is often referred to as predictive analytics. Predictive modelling is often contrasted with causal modelling/analysis. In the former, one may be entirely satisfied to make use of indicators of, or proxies for, the outcome of interest. In the latter, one seeks to determine true cause-and-effect relationships." ([Wikipedia](https://en.wikipedia.org/wiki/Predictive_modelling))
+
+Let's break down that Wikipedia definition.
+
+"Predictive modelling uses statistics to predict outcomes. Most often the event one wants to predict is in the future, but predictive modelling can be applied to any type of unknown event, regardless of when it occurred."
+
+In machine learning, a predictive model is using a measure of statistical significance derived from sample or input data to make a prediction about a future data point.
+
+"In many cases the model is chosen on the basis of detection theory to try to guess the probability of an outcome given a set amount of input data...Models can use one or more classifiers in trying to determine the probability of a set of data belonging to another set."
+
+A machine learning algorithm develops a model that relies on measures of statistical significance in a given input dataset to determine probability or likelihood of a particular outcome not accounted for in the input dataset.
+
+For example, let's say your input data is the types of fruit present in a fruit basket. 
+
+A machine learning algorithm would take information about the fruit to develop a model that predicts the type of fruit for new items added to the basket.
+
+"Depending on definitional boundaries, predictive modelling is synonymous with, or largely overlapping with, the field of machine learning, as it is more commonly referred to in academic or research and development contexts. When deployed commercially, predictive modelling is often referred to as predictive analytics"
+
+More jargon!
+
+While there are important distinctions between these terms (machine learning, predictive modelling, and predictive analytics), the Venn diagram gets messy quickly.
 
 ### Predictive Analytics
 
 “Predictive analytics encompasses a variety of statistical techniques from data mining, predictive modelling, and machine learning, that analyze current and historical facts to make predictions about future or otherwise unknown events. In business, predictive models exploit patterns found in historical and transactional data to identify risks and opportunities. Models capture relationships among many factors to allow assessment of risk or potential associated with a particular set of conditions, guiding decision-making for candidate transactions.” ([Wikipedia](https://en.wikipedia.org/wiki/Predictive_analytics))
+
+Back to predictive modelling.
+
+"Predictive modelling is often contrasted with causal modelling/analysis. In the former, one may be entirely satisfied to make use of indicators of, or proxies for, the outcome of interest. In the latter, one seeks to determine true cause-and-effect relationships."
+
+The last part of this definition is important when we think about the wide range of machine learning applications.
+
+The predictive modelling used in machine learning is not designed or intended to determine/detect any type of causal relationship.
+
+The machine learning algorithm takes the input dataset values as a proxy or indicator for the underlying phenomenon being observed/analyzed/predicted.
+
+A machine learning model is not making any claims about causal relationships between data points and model output.
+
+This contrasts with branches of statistics that seek to build models that are determining causal or cause-and-effect relationships.
 
 ## Machine Learning: Putting It All Together
 
@@ -76,6 +118,8 @@ In recent years, deep learning has emerged as an advanced application of machine
 “Deep learning (also known as deep structured learning or differential programming) is part of a broader family of machine learning methods based on artificial neural networks with representation learning. Deep learning is a class of machine learning algorithms that uses multiple layers to progressively extract higher level features from the raw input. For example, in image processing, lower layers may identify edges, while higher layers may identify the concepts relevant to a human such as digits or letters or faces.” ([Wikipedia](https://en.wikipedia.org/wiki/Deep_learning))
 
 ## Neural Network
+
+"Artificial neural networks (ANNs), usually simply called neural networks (NNs), are computing systems vaguely inspired by the biological neural networks that constitute animal brains. An ANN is based on a collection of connected units or nodes called artificial neurons, which loosely model the neurons in a biological brain. Each connection, like the synapses in a biological brain, can transmit a signal to other neurons. An artificial neuron that receives a signal then processes it and can signal neurons connected to it. The 'signal' at a connection is a real number, and the output of each neuron is computed by some non-linear function of the sum of its inputs. The connections are called edges. Neurons and edges typically have a weight that adjusts as learning proceeds. The weight increases or decreases the strength of the signal at a connection. Neurons may have a threshold such that a signal is sent only if the aggregate signal crosses that threshold. Typically, neurons are aggregated into layers. Different layers may perform different transformations on their inputs. Signals travel from the first layer (the input layer), to the last layer (the output layer), possibly after traversing the layers multiple times." ([Wikipedia](https://en.wikipedia.org/wiki/Artificial_neural_network))
 
 ## Deep Learning: Putting It All Together
 
