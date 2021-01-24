@@ -27,7 +27,7 @@ This tutorial is designed to provide an overview of core concepts in artificial 
 
 “In mathematics and computer science, an algorithm is a finite sequence of well-defined, computer-implementable instructions, typically to solve a class of problems or to perform a computation. Algorithms are always unambiguous and are used as specifications for performing calculations, data processing, automated reasoning, and other tasks.” ([Wikipedia](https://en.wikipedia.org/wiki/Algorithm))
 
-<p align="center"><a href="https://github.com/kwaldenphd/artificial-intelligence-overview/blob/main/figures/Figure_1.png?raw=true"><img class="aligncenter" src="https://github.com/kwaldenphd/artificial-intelligence-overview/blob/main/figures/Figure_1.png?raw=true" height="500" /></a></p>
+<p align="center"><a href="https://github.com/kwaldenphd/artificial-intelligence-overview/blob/main/figures/Figure_1.png?raw=true"><img class="aligncenter" src="https://github.com/kwaldenphd/artificial-intelligence-overview/blob/main/figures/Figure_1.png?raw=true" height="350" /></a></p>
 
 <p align="center">Image from <a href="https://www.geeksforgeeks.org/introduction-to-algorithms/">Geeks for Geeks</a></p>
 
