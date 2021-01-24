@@ -5,6 +5,18 @@ This tutorial is licensed under a <a href="http://creativecommons.org/licenses/b
 
 # Table of Contents
 
+- [Overview](#overview)
+- [Algorithms](#algorithms)
+- [Artificial Intelligence](#artificial-intelligence)
+- [Machine Learning](#machine-learning)
+  * [Predictive Modelling](#predictive-modelling)
+    * [Predictive Analytics](#predictive-analytics)
+  * [Machine Learning: Putting It All Together](#machine-learning-putting-it-all-together)
+- [Deep Learning](#deep-learning)
+  * [Neural Network](#neural-network)
+  * [Deep Learning: Putting It All Together](#deep-learning-putting-it-all-together)
+- [Machine Learning Versus Deep Learning](#machine-learning-versus-deep-learning)
+
 # Overview
 
 When working in and around artificial intelligence and machine learning, the jargon and concepts can quickly become overwhelming.
@@ -15,7 +27,7 @@ This tutorial is designed to provide an overview of core concepts in artificial 
 
 “In mathematics and computer science, an algorithm is a finite sequence of well-defined, computer-implementable instructions, typically to solve a class of problems or to perform a computation. Algorithms are always unambiguous and are used as specifications for performing calculations, data processing, automated reasoning, and other tasks.” ([Wikipedia](https://en.wikipedia.org/wiki/Algorithm))
 
-<p align="center"><a href="https://github.com/kwaldenphd/artificial-intelligence-overview/blob/main/figures/Figure_1.png?raw=true"><img class="aligncenter" src="https://github.com/kwaldenphd/artificial-intelligence-overview/blob/main/figures/Figure_1.png?raw=true" /></a></p>
+<p align="center"><a href="https://github.com/kwaldenphd/artificial-intelligence-overview/blob/main/figures/Figure_1.png?raw=true"><img class="aligncenter" src="https://github.com/kwaldenphd/artificial-intelligence-overview/blob/main/figures/Figure_1.png?raw=true" height="500" /></a></p>
 
 <p align="center">Image from <a href="https://www.geeksforgeeks.org/introduction-to-algorithms/">Geeks for Geeks</a></p>
 
@@ -92,7 +104,7 @@ This contrasts with branches of statistics that seek to build models that are de
 
 ## Machine Learning: Putting It All Together
 
-<p align="center"><a href="https://github.com/kwaldenphd/artificial-intelligence-overview/blob/main/figures/Figure_5.png?raw=true"><img class="aligncenter" src="https://github.com/kwaldenphd/artificial-intelligence-overview/blob/main/figures/Figure_5.png?raw=true" /></a></p>
+<p align="center"><a href="https://github.com/kwaldenphd/artificial-intelligence-overview/blob/main/figures/Figure_5.jpg?raw=true"><img class="aligncenter" src="https://github.com/kwaldenphd/artificial-intelligence-overview/blob/main/figures/Figure_5.jpg?raw=true" /></a></p>
 <p align="center">Image from “<a href="https://medium.com/@chethankumargn/artificial-intelligence-definition-types-examples-technologies-962ea75c7b9b">Artificial Intelligence: Definition Types, Examples, Technologies</a>” Medium blog post</p>
 
 Let’s look at how these different concepts and functions work together.
@@ -123,7 +135,7 @@ In recent years, deep learning has emerged as an advanced application of machine
 
 ## Deep Learning: Putting It All Together
 
-<p align="center"><a href="https://github.com/kwaldenphd/artificial-intelligence-overview/blob/main/figures/Figure_8.png?raw=true"><img class="aligncenter" src="https://github.com/kwaldenphd/artificial-intelligence-overview/blob/main/figures/Figure_8.png?raw=true" /></a></p>
+<p align="center"><a href="https://github.com/kwaldenphd/artificial-intelligence-overview/blob/main/figures/Figure_8.png?raw=true"><img class="aligncenter" src="https://github.com/kwaldenphd/artificial-intelligence-overview/blob/main/figures/Figure_8.png?raw=true" height="500"/></a></p>
 <p align="center">Model of the type of neural network used in deep learning. <a href="https://en.wikipedia.org/wiki/Neural_network#/media/File:Neural_network_example.svg">Image from Wikimedia Commons</a></p>
 
 <p align="center"><a href="https://github.com/kwaldenphd/artificial-intelligence-overview/blob/main/figures/Figure_9.png?raw=true"><img class="aligncenter" src="https://github.com/kwaldenphd/artificial-intelligence-overview/blob/main/figures/Figure_9.png?raw=true" /></a></p>
