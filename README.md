@@ -42,7 +42,7 @@ We can think of a flowchart as a visual representation of the steps or procedure
 <p align="center">Image from <a href="https://www.c-programming-simple-steps.com/algorithm-definition.html">C-Programming</a></p>
 
 <p align="center"><a href="https://github.com/kwaldenphd/artificial-intelligence-overview/blob/main/figures/Figure_4.png?raw=true"><img class="aligncenter" src="https://github.com/kwaldenphd/artificial-intelligence-overview/blob/main/figures/Figure_4.png?raw=true" /></a></p>
-<p align="center">TED-Ed, "<a href="https://youtu.be/6hfOvs8pY1k">What's an algorithm?</a>" *YouTube Video* (20 May 2013).</p>
+<p align="center">TED-Ed, "<a href="https://youtu.be/6hfOvs8pY1k">What's an algorithm?</a>" <em>YouTube Video</em> (20 May 2013).</p>
 
 We can think of the information contained in an algorithm as a type of pseudo-code that provides a set of instructions to the underlying machine. The compiler and assembler functions for the programming language we are using will “translate” the more human-readable algorithm into a discrete set of instructions for the machine.
 
